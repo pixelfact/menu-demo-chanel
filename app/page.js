@@ -5,7 +5,9 @@ import { navigationItems } from "../data/navigation-items"; // see data formatti
 export default function Home() {
     return (
         <main className="min-h-screen flex-col items-center justify-between p-24">
-            <Navigation menus={navigationItems} />
+            <div className="w-96 m-auto">
+                <Navigation menus={navigationItems} />
+            </div>
         </main>
     );
 }
